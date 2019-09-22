@@ -1,0 +1,118 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-image: url(../img/waves.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+.app {
+  margin: 10vh 5vw 0 auto;
+  vertical-align: center;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2rem solid #fff;
+  border-radius: 10px;
+  height: 80vh;
+  width: 40vh;
+  min-width: 650px;
+  min-height: 750px;
+  max-height: 800px;
+  box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.2); }
+
+.title {
+  background-color: #f44335;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 2rem; }
+
+h1 {
+  font-family: "Schoolbell", cursive;
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1rem;
+  color: #00223c; }
+
+h2 {
+  font-family: "Schoolbell", cursive;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: #fff; }
+
+.button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-left: 3.5rem;
+  margin-top: 1rem;
+  font-family: "Schoolbell", cursive;
+  font-size: 2rem;
+  letter-spacing: 3rem;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  background-color: #a6abbd;
+  color: #00223c; }
+  .button:hover {
+    color: #fff;
+    background-color: #004c86; }
+
+.game {
+  width: 600px;
+  height: 400px;
+  padding-right: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  cursor: url(../img/net-a.png) 25 25, pointer; }
+
+.hole {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative; }
+  .hole:after {
+    display: block;
+    background: url(../img/sea.svg) bottom center no-repeat;
+    background-size: contain;
+    content: "";
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    z-index: 2;
+    bottom: -30px; }
+
+.mole-a {
+  background: url(../img/bottle.svg) bottom center no-repeat;
+  background-size: 45%;
+  position: absolute;
+  top: 95%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s; }
+  .mole-a:active {
+    cursor: url(../img/net-b.png) 25 25, pointer; }
+
+.mole-b {
+  background: url(../img/plastic-bag.svg) bottom center no-repeat;
+  background-size: 45%;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s; }
+  .mole-b:active {
+    cursor: url(../img/net-b.png) 25 25, pointer; }
+
+.hole.up .mole {
+  top: 0; }

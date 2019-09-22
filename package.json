@@ -13,12 +13,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  },
   "bugs": {
     "url": "https://github.com/JetskevdWouden/catch-a-plastic/issues"
   },
   "homepage": "https://github.com/JetskevdWouden/catch-a-plastic#readme",
   "dependencies": {
     "live-server": "^1.2.1",
-    "node-sass": "^4.12.0"
+    "scss": "^0.2.4"
   }
 }
