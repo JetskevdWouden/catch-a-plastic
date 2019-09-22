@@ -12,13 +12,14 @@ This app was made as part of an assignment. The challenge was to create a "whack
 ### :pushpin: Table of contents
 
 * [Technologies used](#technologies-used)
-* [Description & Intention](#description-&-intention)
 * [Setup](#setup)
 
 ### :pushpin: Technologies used
 * [Vanilla Javascript](https://www.javascript.com)
 * [SASS](https://sass-lang.com)
 
-### :pushpin: Description & Intention
-
 ### :pushpin: Setup
+* git clone
+* npm install
+* npm run compile:sass
+* live-server
