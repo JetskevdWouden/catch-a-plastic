@@ -26,7 +26,7 @@ const randomHole = (holes) => {
 
 //mole go up
 const molePop = () => {
-    const time = randomTime(400, 1400);
+    const time = randomTime(800, 1400);
     const hole = randomHole(holes);
 
     hole.classList.add('up');
